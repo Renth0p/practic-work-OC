@@ -207,7 +207,7 @@ while (n <= 20) {
 y += ((n*n) / (2*n+1)) * pow(x, (n-1));
 n++;
 }
-cout « "x: " « x « ", y(x): " « y « endl;
+cout << "x: " << x << ", y(x): " << y << endl;
 }
 
 }
