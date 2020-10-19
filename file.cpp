@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void yeleven(double n) {
+void first(double n) {
 double y;
 for(float x = 0.1; x <= 1.3; x+=0.1){
 y = 0;
@@ -17,7 +17,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void yone(double n) {
+void second(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -32,7 +32,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void ytwo(double n) {
+void third(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -47,7 +47,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void ythree(double n) {
+void fourth(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -62,7 +62,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void yfour(double n) {
+void fifth(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -77,7 +77,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void yfive(double n) {
+void sixth(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -92,7 +92,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void ysix(double n) {
+void seventh(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -107,7 +107,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void yseven(double n) {
+void eighth(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -122,7 +122,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void yeight(double n) {
+void ningth(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -137,7 +137,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void ynine(double n) {
+void tenth(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -152,7 +152,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void yten(double n) {
+void eleventh(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -167,7 +167,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void ytwelve(double n) {
+void twelfth(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -182,7 +182,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void ythirteen(double n) {
+void thirteenth(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -197,7 +197,7 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void fourteen(double n) {
+void fourteenth(double n) {
 double y;
 double mem = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
@@ -212,12 +212,12 @@ cout << "x: " << x << ", y(x): " << y << endl;
 
 }
 
-void fifteen(double n) {
+void fifteenth(double n) {
 double y;
-double mem = n;
+double da = n;
 for(float x = 0.1; x <= 1.3; x+=0.1){
 y = 0;
-n = mem;
+n = da;
 while (n <= 20) {
 y += (cos(n * (3.1415926535 / 4)) / n*n) * pow(x, n);
 n++;
